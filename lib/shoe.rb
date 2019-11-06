@@ -14,5 +14,3 @@ class Shoe
       @condition = "new"
     end
 end
-
-cobble = Shoe.new("new")
