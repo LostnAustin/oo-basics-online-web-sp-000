@@ -17,3 +17,5 @@ class Book
 
     book = Book.new("g")
     book.turn_page
+
+#attr_accessor removes necessary code for getters/setters
