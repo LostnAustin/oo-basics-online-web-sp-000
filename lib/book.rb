@@ -1,7 +1,7 @@
 class Book
-    def initialize(title, author_name)
+    def initialize(title, author)
       @title = title
-      @author_name = author_name
+      @author_name = author
     end
 
         def title=(title)
@@ -13,12 +13,12 @@ class Book
         end
 
 
-        def author_name=(author_name)
-          @author_name
+        def author=(author)
+          @author
         end
 
-        def author_name
-          @author_name
+        def author
+          @author
         end
     end
 book = Book.new("And Then There Were None")
