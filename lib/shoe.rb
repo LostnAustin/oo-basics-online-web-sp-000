@@ -15,4 +15,4 @@ class Shoe
 end
 
 cobble = Shoe.new("new")
-shoe.cobble
+Shoe.cobble
